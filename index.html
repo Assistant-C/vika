@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('Gv5qw4CDLHYerzob2');
+        })();
+    </script>
+
+
+    <title>Partfolio</title>
+</head>
+<body>
+
+    <nav>
+            <a href="index.html" class="nav__item" id="Text1">HOME</a>
+            <a href="#aboutMe" class="nav__item" id="Text2">ABOUT ME</a>
+            <a href="#whatIDo" class="nav__item" id="Text3">WHAT I DO</a>
+            <a href="#contact" class="nav__item" id="Text4">CONTACT</a>
+            <a href="partfolio.html" class="nav__item" id="Text5">MY WORK</a>
+
+            <div>
+                <img src="img/Flag_of_the_United_States.svg" alt="" class="img-language" onclick="english()">
+                <img src="img/Flag_of_Poland.svg" alt="" class="img-language" onclick="poland()">
+            </div>
+        
+        
+        </nav>
+
+
+
+    <div class="wrapper">
+
+        <header>
+
+            <div class="header__information-about_me  wow animate__animated animate__fadeInUp">
+                <p class="header__text-one" id="Text6">Hello, I’m</p>
+                <p class="header__text-two" id="Text7">Wiktoria Kolisnychenko</p>
+                <p class="header__text-three" id="Text8">Front-end developer</p>
+            </div>
+            <div class="header__image-me wow animate__animated animate__fadeInRight"></div>
+        </header>
+
+        <div class="effect-circle"></div>
+
+
+        <main>
+            <div class="slide-har">
+               <div>
+                    <p>Web Development</p>
+                    <p>Front-end developer</p>
+                    
+               </div>
+            </div>
+
+
+            <div class="block__description_me">
+
+                <div class="container__text_h3-h1 wow animate__animated animate__fadeInUp" id="aboutMe">
+                <h3 class="block__heading3" id="Text9">About me</h3>
+                <h1 class="Heading1" id="Text10">ABOUT ME</h1>
+                </div>
+
+                <div class="container__description_me">
+                    <img src="img//i.jpg" alt="" class="image__me wow animate__animated animate__fadeInLeft">
+
+                    <div class="container__description_me-text wow animate__animated animate__zoomIn">
+                        <h2 class="Heading2" id="Text11">Hi There! I'm Wiktoria Kolisnychenko</h2>
+                        <h4 class="Heading4" id="Text12">Front-end developer</h4>
+                        <p class="cdm-block__text" id="Text13">I am a front-end developer creating interactive and intuitive interfaces. My work engages and inspires users, motivating them to interact with the product and achieve their goals. I strive to create effective and aesthetically pleasing digital experiences that create a positive impact on users.</p>
+
+                        <ul>
+                            <li id="Text14">Birthday :   January 22, 2009</li>
+                            <li id="Text15">Phone :   +48 783787732</li>
+                            <li id="Text16">Email :   kolisnychenko427@gmail.com</li>
+                            <li id="Text17">From :   Ukraine, Krivoy Rog</li>
+                            <li id="Text18">Language :   Polish, Ukrainian, Russian</li>
+                            <li id="Text19">Freelance :   Available</li>
+                            <li id="Text20">Freelance :   Available</li>
+                        </ul>
+                        <br>
+                        <br>
+                        <button id="Text21">Dowloand CV</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="block__possibilities">
+                <div class="container__text_h3-h1 wow animate__animated animate__fadeInUp" id="whatIDo">
+                    <h3 class="block__heading3" id="Text22">WHAT I DO</h3>
+                    <h1 class="Heading1" id="Text23">WHAT I DO</h1>
+                    </div>
+                <div class="container__possibilities">
+                    <img src="img/html.png" alt="" class="image__possibilities">
+                    <div class="block__text-possibilities">
+                        <h5 class="Heading5">HTML</h5>
+                        <p class="text-possibilities" id="Text24">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit.</p>
+                    </div>
+                </div>
+
+                <div class="container__possibilities">
+                    <img src="img/css.png" alt="" class="image__possibilities">
+                    <div class="block__text-possibilities">
+                        <h5 class="Heading5">CSS</h5>
+                        <p class="text-possibilities" id="Text25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit.</p>
+                    </div>
+                </div>
+
+                <div class="container__possibilities">
+                    <img src="img/js.png" alt="" class="image__possibilities">
+                    <div class="block__text-possibilities">
+                        <h5 class="Heading5">Java Script</h5>
+                        <p class="text-possibilities" id="Text26">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit.</p>
+                    </div>
+                </div>
+
+                <div class="container__possibilities">
+                    <img src="img/jquery.png" alt="" class="image__possibilities">
+                    <div class="block__text-possibilities">
+                        <h5 class="Heading5">jQuery</h5>
+                        <p class="text-possibilities" id="Text27">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit.</p>
+                    </div>
+                </div>
+
+                <div class="container__possibilities">
+                    <img src="img/joomla.png" alt="" class="image__possibilities">
+                    <div class="block__text-possibilities">
+                        <h5 class="Heading5">Joomla</h5>
+                        <p class="text-possibilities" id="Text28">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit.</p>
+                    </div>
+                </div>
+
+                <div class="container__possibilities">
+                    <img src="img/wordpress.png" alt="" class="image__possibilities">
+                    <div class="block__text-possibilities">
+                        <h5 class="Heading5">Worpress</h5>
+                        <p class="text-possibilities" id="Text29">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        
+        <footer>
+            <div class="container__text_h3-h1 wow animate__animated animate__fadeInUp" id="contact">
+                <h3 class="block__heading3" id="Text30">CONTACT</h3>
+                <h1 class="Heading1" id="Text31">CONTACT</h1>
+                </div>
+
+                <div class="kontakt__text animate__animated animate__fadeInLeft">
+                    <h2 class="Heading2 heading2-footer" id="Text32">Contact Info</h2>
+                    <br>
+                    <p class="cdm-block__text kd" id="Text33">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat.</p>
+
+                    <p class="heading2-footer numer">+48 783 787 732</p>
+                </div>
+
+                <form class="container__kontakt" id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <input type="text" placeholder="Name" class="input__small" name="from_name">
+                    <input type="email" placeholder="Email" class="input__small" name="user_email">
+                    <input type="text" placeholder="Subject" class="input__big">
+                    <input type="text" placeholder="Message" class="input__big big" name="Message">
+
+                    <input class="button__footer" id="Text34" name="sed" type="submit" value="Send">
+                </form>
+
+
+                <div class="effect-circle-two"></div>
+
+
+                
+        </footer>
+
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+ <script>
+     new WOW().init();
+ </script>
+
+</body>
+</html>

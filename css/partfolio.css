@@ -1,0 +1,96 @@
+.vw{
+    width: 100vw;
+}
+.my__work{
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.my__work_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work{
+    width: 384px;
+    height: 384px;
+    background: gray;
+    border: 1px solid black;
+    background-size: 100% 100%;
+}
+.work1{
+    position: relative;
+    overflow: hidden;
+
+}
+.animation1{
+    width: 100%;
+    height: 100%;
+    background: rgb(88, 79, 136);
+    opacity: 0;
+    top: 384px;
+    position: absolute;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    line-height: 1.3571428571;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.work1:hover .animation1{
+    opacity: 1;
+    transition: all ease 1s;
+    animation: App 0.3s 1 forwards;
+}
+@keyframes App {
+    0%{
+
+    }
+    100%{
+        top: 0;
+    }
+}
+/* .work2{
+    background: url(../img/boldo_logo.png);
+    background-size: 100% 100%;
+} */
+/* .work2:hover{
+    background-size: 120% 120%;
+    transition: all ease 1s;
+    background-position: center;
+} */
+.width{
+    width: 100%;
+    text-align: center;
+}
+
+.p1{
+    background: url(../img/p1.png);
+    background-size: 100%;
+}
+.p2{
+    background: url(../img/p2.png);
+    background-size: 100%;
+}
+.p3{
+    background: url(../img/p3.png);
+    background-size: 100%;
+}
+.p4{
+    background: url(../img/p4.png);
+    background-size: 100%;
+}
+.p5{
+    background: url(../img/p5.png);
+    background-size: 100%;
+}
